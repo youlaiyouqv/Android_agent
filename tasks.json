@@ -1,0 +1,17 @@
+[
+    {"id": 1, "type": "信息查询", "task": "打开设置，告诉我 Android 版本号", "check": "17"},
+    {"id": 2, "type": "信息查询", "task": "打开设置，告诉我这台设备的名称", "check": "sdk_gphone"},
+    {"id": 3, "type": "信息查询", "task": "打开设置，进入电池界面，告诉我当前电量百分比", "check": "100"},
+    {"id": 4, "type": "信息查询", "task": "打开设置，告诉我当前的系统语言", "check": "English"},
+    {"id": 5, "type": "信息查询", "task": "打开设置，告诉我Wi-Fi当前是开启还是关闭", "check": null},
+    {"id": 6, "type": "信息查询", "task": "打开设置，告诉我屏幕超时(Screen timeout)的时间", "check": null},
+    {"id": 7, "type": "信息查询", "task": "打开设置，进入存储页面，告诉我已经使用了多少存储空间", "check": "8.2"},
+    {"id": 8, "type": "信息查询", "task": "打开时钟应用，告诉我现在一共有几个闹钟", "check": 3},
+    {"id": 9, "type": "操作",     "task": "打开设置，用搜索功能搜索bluetooth, 并进入蓝牙设置页面", "check": null},
+    {"id": 10, "type": "操作",     "task": "打开设置，开启深色主题（Dark theme）", "check": null},
+    {"id": 11, "type": "操作",     "task": "打开时钟应用，新建一个早上7:00的闹钟", "check": null},
+    {"id": 12, "type": "操作",     "task": "打开Chrome，访问www.baidu.com, 告诉我页面的标题", "check": "百度"},
+    {"id": 13, "type": "操作",     "task": "打开计算器，计算12+34，告诉我结果", "check": "46"},
+    {"id": 14, "type": "操作",     "task": "打开设置，把屏幕亮度调到最低", "check": null},
+    {"id": 15, "type": "操作",     "task": "打开通讯录，新建一个联系人，名字 Tom, 电话123456", "check": null}
+]

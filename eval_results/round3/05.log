@@ -1,0 +1,87 @@
+已连接 MCP Server，获取到 8 个工具
+
+🪛第 1 步：open_app({"package": "com.android.settings"}) -> 已打开com.android.settings
+
+操作后的屏幕：
+[0] search_action_bar（可点击）
+[1] Search Settings（可点击）
+[2] Google（可点击）
+[3] Services & preferences（可点击）
+[4] Network & internet（可点击）
+[5] Mobile, Wi‑Fi, hotspot（可点击）
+[6] Connected devices（可点击）
+[7] Bluetooth, pairing（可点击）
+[8] Apps（可点击）
+[9] Assistant, recent apps, default apps（可点击）
+[10] Notifications（可点击）
+[11] Notification history, conversations（可点击）
+[12] Sound & vibration（可点击）
+[13] Volume and haptics（可点击）
+[14] Modes（可点击）
+[15] Do Not Disturb, Bedtime, Driving（可点击）
+[16] Display & touch（可点击）
+[17] Dark theme, font size, touch（可点击）
+[18] Wallpaper & style（可点击）
+[19] Colors, themed icons, app grid（可点击）
+[20] Storage（可点击）
+[21] 66% used - 5.40 GB free（可点击）
+🪛第 2 步：tap_element({"index": 4}) -> 已点击 [4] Network & internet
+
+操作后的屏幕：
+[0] Network & internet
+[1] Navigate up（可点击）
+[2] Internet（可点击）
+[3] AndroidWifi（可点击）
+[4] SIMs（可点击）
+[5] T-Mobile（可点击）
+[6] Airplane mode（可点击）
+[7] Airplane mode的开关（可点击,已关闭）
+[8] Hotspot & tethering（可点击）
+[9] Off（可点击）
+[10] Data Saver（可点击）
+[11] Off（可点击）
+[12] VPN（可点击）
+[13] None（可点击）
+[14] Private DNS（可点击）
+[15] Automatic（可点击）
+[16] Adaptive connectivity（可点击）
+[17] On（可点击）
+[18] Mobile network security（可点击）
+[19] Network type, encryption, notification controls（可点击）
+🪛第 3 步：tap_element({"index": 2}) -> 已点击 [2] Internet
+
+操作后的屏幕：
+[0] Internet
+[1] Navigate up（可点击）
+[2] Fix connectivity（可点击）
+[3] 0.0
+[4] 0.0
+[5] Loading…
+🪛第 4 步：get_screen_elements({}) -> [0] Internet
+[1] Navigate up（可点击）
+[2] Fix connectivity（可点击）
+[3] 0.0
+[4] Mobile data
+[5] T-Mobile（可点击）
+[6] LTE（可点击）
+[7] Settings（可点击）
+[8] Wi‑Fi
+[9] Use Wi‑Fi（可点击）
+[10] Use Wi‑Fi的开关（可点击,已开启）
+[11] AndroidWifi,Connected,Wifi signal full.,Open network（可点击）
+[12] AndroidWifi（可点击）
+[13] Connected（可点击）
+[14] Settings（可点击）
+[15] Networks
+[16] Searching for networks…
+[17] Add network（可点击）
+[18] Network preferences（可点击）
+[19] Wi‑Fi doesn't turn back on automatically（可点击）
+[20] Saved networks（可点击）
+[21] 35 networks（可点击）
+[22] Non-carrier data usage（可点击）
+[23] 1.80 GB used Sep 21 – Oct 19（可点击）
+
+最终回答：Wi‑Fi 当前是**开启**状态。
+
+依据：在设置 → 网络和互联网 → 互联网页面中，“使用 Wi‑Fi”的开关显示为“已开启”，并且已连接到网络 AndroidWifi（状态为 Connected，信号满格）。
