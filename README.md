@@ -61,8 +61,9 @@ agent-demo/
 ├── android_server.py   # MCP Server：设备操作工具
 ├── run_eval.py         # 批量评测脚本
 ├── tasks.json          # 评测任务集
+├── requirements.txt    # 依赖清单
 ├── eval_results/       # 每轮评测结果（CSV + 每条任务的完整日志）
-└── logs/               # 早期排查日志
+└── learning/           # 学习过程中的练习代码（工具调用、ReAct 原型、最简 MCP Server）
 ```
 
 ## 快速开始
