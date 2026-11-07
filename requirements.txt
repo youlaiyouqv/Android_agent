@@ -10,6 +10,7 @@ click==8.5.0
 cryptography==50.0.2
 decorator==5.3.1
 deprecation==2.1.0
+fastapi==0.162.1
 h11==0.16.0
 httpcore==1.0.9
 httpcore2==2.13.1
@@ -25,6 +26,7 @@ markdown-it-py==4.2.0
 mcp==1.30.0
 mdurl==0.1.2
 openai==3.24.0
+opentelemetry-api==1.45.2
 packaging==26.3
 pillow==12.3.0
 pycparser==3.0
